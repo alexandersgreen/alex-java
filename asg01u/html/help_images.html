@@ -1,0 +1,35 @@
+<html>
+<BODY BGCOLOR=#FFFFFF> 
+<TABLE ALIGN=center BORDER=none>
+<TR>
+<TD>
+</TD>
+<TD>
+<IMAGE src="images/uofn.gif" BORDER=none>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=left>
+<A HREF="help_main.html">Contents</A>
+<BR><A HREF="help_general.html">General</A>
+<BR><A HREF="help_num.html">Numerical Expressions</A>
+<BR><A HREF="help_bool.html">Boolean Expressions</A>
+<BR><A HREF="help_text.html">Text</A>
+<BR>Images
+</TD>
+<TD ALIGN=center>
+<IMAGE src="images/spacer.gif" BORDER=none>
+<BR>
+<b>
+Images
+<BR>
+<BR>
+</b>
+Images are slightly different to other components, this is because they don't actually store the image that is being displayed, but simply the local address of the image. This can lead to problems when a file is stored. If a presentation is saved (in xml) by a lecturer and then distributed to their students, the chances of the student having the correct images stored in the correct places is minimal, or getting the students to have to download all the images seperately could be time consuming. There are two ways this could be overcome, firstly having the component take a URL address and then storing the images on the web, but this has its own draw backs, so i have used the second way. That is an image component stores a byte-code representation of the image within the outputted xml file, which can then be loaded by any other system that is running the Editor.
+</TD>
+<TD ALIGN=center>
+<IMAGE src="images/uofn2.gif" BORDER=none>
+</TD>
+</TR>
+</TABLE>
+</html>
